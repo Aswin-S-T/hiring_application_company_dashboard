@@ -1,0 +1,46 @@
+/* VerticalTabs.css */
+.vertical-tab-list {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    height: 97vh;
+  }
+  
+  .vertical-tab-list .react-tabs__tab {
+    margin-bottom: 30px; 
+    padding: 10;
+  }
+  .react-tabs__tab--selected{
+    background-color: #0ECC5E;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom-right-radius: 40px;
+  }
+  .dash_item{
+    color: #111953;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 20px;
+  }
+  .react-tabs__tab--selected .dash_item{
+    color: #fff;
+  }
+  .circle-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px;
+  }
+  .profile_name{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  .brand{
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 24px;
+    color: #0ECC5E;
+  }
